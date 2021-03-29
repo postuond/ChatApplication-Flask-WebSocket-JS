@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Chat Application</title>
@@ -8,6 +8,14 @@
 </head>
 <body>
 <h1>Chat application</h1>
+<div id="nickWrap">
+    <p>Enter username: </p>
+    <p id="nickError"></p>
+    <form id="setNick">
+        <input size="35" id="nickname"></input>
+        <input type="submit"></input>
+    </form>
+</div>
      <script type="text/javascript">
          $(document).ready(function() {
 

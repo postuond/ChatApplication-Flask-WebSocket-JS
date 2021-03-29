@@ -12,7 +12,6 @@ def handleMessages(msg):
 
 @app.route('/')
 def chat():
-    flash('cau')
     return redirect(url_for('example'))
 
 @app.route('/chat')
